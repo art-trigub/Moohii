@@ -1,0 +1,95 @@
+@font-face {
+    font-family: times-new-roman; 
+    src: url(fonts/times-new-roman.ttf); 
+   }
+
+* {
+font-family: times-new-roman; 
+}
+
+
+#input{
+	height: 70px;
+	display: block;
+}
+
+#input-search-books {
+	font-size: 17px;
+	margin-top: 30px;
+	margin-left: 35%;
+	width: 27%;
+	height: 27px;
+	border-radius: 3px;
+	border: solid 1px black;
+	padding-left: 8px;
+	outline: none;
+}
+
+#button-search {
+	position: absolute;
+	width: 30px;
+	margin-top: 30px;
+	padding-left: 15px;
+	outline: none;
+}
+
+#books {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 80px;
+}
+
+.container {
+	width: 180px;
+	height: 280px;
+	margin-left: 12px;
+	margin-right: 12px;
+	margin-bottom: 140px;
+}
+
+.container img {
+	border-radius: 4px;
+	width: 100%;
+	height: 100%;
+}
+
+h5 {
+	padding-left: 2px;
+	font-size: 13px;
+	margin-top: 4px;
+	color: grey;
+}
+
+.nameAuthor {
+	font-size: 22px;
+	margin-top: 30px;
+	margin-left: 13%;
+}
+
+.titleBook {
+	padding-left: 2px;
+	font-size: 15px;
+	margin-top: -15px;
+	height: 50px;
+}
+
+/*@media only screen and (min-width: 450px) {
+	.input {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.input {
+		width: 33.333%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.input {
+		width: 25%;
+	}
+}*/
